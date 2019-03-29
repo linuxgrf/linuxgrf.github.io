@@ -118,18 +118,18 @@
 
 
 
-  <meta name="description" content="一、创建文章 在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题 $ hexo new “title” 当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md 这个文件就是将要发布到网站上的原始文件，用于记录文章内容。">
+  <meta name="description" content="一、git基本命令1.git创建分支并提交到远程分支 1234git checkout -b hexo    #创建hexo分支并进入该分支git branch				#查看以有分支git push origin hexo	#提交该分支到远程仓库git branch --set-upstream-to=origin/hexo	#建立本地到远端仓的链接">
 <meta name="keywords" content="技术">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo下Markdown的使用">
-<meta property="og:url" content="http://yoursite.com/2019/03/29/Markdown的使用/index.html">
+<meta property="og:title" content="git常用命令">
+<meta property="og:url" content="http://yoursite.com/2019/03/29/git常用命令/index.html">
 <meta property="og:site_name" content="郭瑞峰的小屋">
-<meta property="og:description" content="一、创建文章 在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题 $ hexo new “title” 当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md 这个文件就是将要发布到网站上的原始文件，用于记录文章内容。">
+<meta property="og:description" content="一、git基本命令1.git创建分支并提交到远程分支 1234git checkout -b hexo    #创建hexo分支并进入该分支git branch				#查看以有分支git push origin hexo	#提交该分支到远程仓库git branch --set-upstream-to=origin/hexo	#建立本地到远端仓的链接">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-29T12:44:29.921Z">
+<meta property="og:updated_time" content="2019-03-29T15:28:05.674Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo下Markdown的使用">
-<meta name="twitter:description" content="一、创建文章 在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题 $ hexo new “title” 当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md 这个文件就是将要发布到网站上的原始文件，用于记录文章内容。">
+<meta name="twitter:title" content="git常用命令">
+<meta name="twitter:description" content="一、git基本命令1.git创建分支并提交到远程分支 1234git checkout -b hexo    #创建hexo分支并进入该分支git branch				#查看以有分支git push origin hexo	#提交该分支到远程仓库git branch --set-upstream-to=origin/hexo	#建立本地到远端仓的链接">
 
 
 
@@ -138,7 +138,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/03/29/Markdown的使用/">
+  <link rel="canonical" href="http://yoursite.com/2019/03/29/git常用命令/">
 
 
 
@@ -148,7 +148,7 @@
   };
 </script>
 
-  <title>hexo下Markdown的使用 | 郭瑞峰的小屋</title>
+  <title>git常用命令 | 郭瑞峰的小屋</title>
   
 
 
@@ -379,7 +379,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/29/Markdown的使用/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/29/git常用命令/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="郭瑞峰">
@@ -396,7 +396,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">hexo下Markdown的使用
+          <h1 class="post-title" itemprop="name headline">git常用命令
 
               
             
@@ -422,7 +422,7 @@
                 
               
 
-              <time title="创建时间：2019-03-29 00:06:27 / 修改时间：20:44:29" itemprop="dateCreated datePublished" datetime="2019-03-29T00:06:27+08:00">2019-03-29</time>
+              <time title="创建时间：2019-03-29 22:59:52 / 修改时间：23:28:05" itemprop="dateCreated datePublished" datetime="2019-03-29T22:59:52+08:00">2019-03-29</time>
             
 
             
@@ -444,7 +444,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Hexo教程/" itemprop="url" rel="index"><span itemprop="name">Hexo教程</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/git/" itemprop="url" rel="index"><span itemprop="name">git</span></a></span>
 
                 
                 
@@ -487,42 +487,31 @@
       
 
       
-        <p><strong>一、创建文章</strong></p>
-<p>在站点文件夹中打开 git bash，输入如下命令创建文章，其中 <code>title</code> 为文章的标题</p>
-<p><em>$ hexo new “title”</em></p>
-<p>当输入命令后，就会在 <code>source/_post</code> 文件夹下创建一个文件，命名为：<code>title.md</code></p>
-<p>这个文件就是将要发布到网站上的原始文件，用于记录文章内容。</p>
+        <h6 id="一、git基本命令"><a href="#一、git基本命令" class="headerlink" title="一、git基本命令"></a>一、git基本命令</h6><p>1.git创建分支并提交到远程分支</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b hexo    #创建hexo分支并进入该分支</span><br><span class="line">git branch				#查看以有分支</span><br><span class="line">git push origin hexo	#提交该分支到远程仓库</span><br><span class="line">git branch --set-upstream-to=origin/hexo	#建立本地到远端仓的链接</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
-<p><strong>二、编写文章</strong></p>
-<h6 id="1、Markdown-简介"><a href="#1、Markdown-简介" class="headerlink" title="1、Markdown 简介"></a>1、Markdown 简介</h6><p><em>Markdown 是一种可以使用普通文本编辑器编写的 <strong>标记语言</strong>，通过简单的 <strong>标记语法</strong>，它可以使普通文本内容具有一定的格式</em></p>
-<h6 id="2、Markdown语法"><a href="#2、Markdown语法" class="headerlink" title="2、Markdown语法"></a>2、Markdown语法</h6><p><strong>Typora 快捷键：</strong></p>
-<p><em>Ctrl+1：一级标题</em></p>
-<p><em>Ctrl+2：二级标题</em></p>
-<p><em>Ctrl+3：三级标题</em></p>
-<p>Ctrl+4：四级标题</p>
-<p>Ctrl+5：五级标题</p>
-<p>Ctrl+6 ：六级标题</p>
-<p><em>Ctrl+0：段落</em></p>
-<h6 id="3、粗体、斜体、删除线和下划线"><a href="#3、粗体、斜体、删除线和下划线" class="headerlink" title="3、粗体、斜体、删除线和下划线"></a>3、粗体、斜体、删除线和下划线</h6><p><strong>Markdown 语法：</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">*斜体*</span><br><span class="line">**粗体**</span><br><span class="line">***加粗斜体***</span><br><span class="line">~~删除线~~</span><br><span class="line">1234</span><br></pre></td></tr></table></figure>
-<p><strong>Typora 快捷键：</strong></p>
-<p>Ctrl+I：斜体</p>
-<p>Ctrl+B：粗体</p>
-<p>Ctrl+U：下划线</p>
-<p>Alt+Shift+5：删除线</p>
-<h6 id="4、引用块"><a href="#4、引用块" class="headerlink" title="4、引用块"></a>4、引用块</h6><blockquote>
-<p>1.&gt;文字引用</p>
-<h6 id="5、代码块"><a href="#5、代码块" class="headerlink" title="5、代码块"></a>5、代码块</h6><p><strong>Markdown 语法：</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; `行内代码`</span><br><span class="line">&gt; </span><br><span class="line">&gt; ​</span><br></pre></td></tr></table></figure>
-</blockquote>
-<blockquote>
-<p>多行代码<br>多行代码<br>​<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;</span><br></pre></td></tr></table></figure></p>
-</blockquote>
-<blockquote>
-<p><strong>Typora 快捷键：</strong></p>
-<p>行内代码：Ctrl+Shift+`</p>
-<p>多行代码：Ctrl+Shift+K</p>
-</blockquote>
+<p>2.将一个远程库拷贝到本地</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/linuxgrf/linuxgrf.github.io.git</span><br></pre></td></tr></table></figure>
+<p>3.检查当前跟踪文件的状态</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure>
+<p>4.提交更新</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add</span><br><span class="line">git commit -m &quot;说明字符串&quot;	#提交保存到仓库</span><br></pre></td></tr></table></figure>
+<h6 id="二、git分支管理"><a href="#二、git分支管理" class="headerlink" title="二、git分支管理"></a>二、git分支管理</h6><p>1.创建分支命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch (branchname)</span><br></pre></td></tr></table></figure>
+<p>2.切换分支命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout (branchname)</span><br></pre></td></tr></table></figure>
+<p>3.合并分支</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge (branchname)</span><br></pre></td></tr></table></figure>
+<p>4.创建新分支并切换到该分支下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b (branchname)</span><br></pre></td></tr></table></figure>
+<p>5.删除分支命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -d (branchname)</span><br></pre></td></tr></table></figure>
+<h6 id="三、查看日志版本"><a href="#三、查看日志版本" class="headerlink" title="三、查看日志版本"></a>三、查看日志版本</h6><p>1.列出历史提交记录</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">86155@DESKTOP-O99ELN7 MINGW64 /g/Hexo/linuxgrf.github.io (hexo)</span><br><span class="line">$ git log</span><br></pre></td></tr></table></figure>
+<p>2.查看历史记录的简洁版本</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git log --oneline</span><br></pre></td></tr></table></figure>
+<p>3.查看历史中什么时候出现分支、合并</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git log --oneline --graph</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -568,8 +557,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/03/28/hello-world/" rel="next" title="Hello World纪念建立的第一个博客">
-                <i class="fa fa-chevron-left"></i> Hello World纪念建立的第一个博客
+              <a href="/2019/03/29/PMP项目管理/" rel="next" title="PMP项目管理">
+                <i class="fa fa-chevron-left"></i> PMP项目管理
               </a>
             
           </div>
@@ -577,10 +566,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/03/29/hexo/" rel="prev" title="hexo">
-                hexo <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -786,7 +771,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-6"><a class="nav-link" href="#1、Markdown-简介"><span class="nav-number">1.</span> <span class="nav-text">1、Markdown 简介</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#2、Markdown语法"><span class="nav-number">2.</span> <span class="nav-text">2、Markdown语法</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#3、粗体、斜体、删除线和下划线"><span class="nav-number">3.</span> <span class="nav-text">3、粗体、斜体、删除线和下划线</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#4、引用块"><span class="nav-number">4.</span> <span class="nav-text">4、引用块</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#5、代码块"><span class="nav-number">5.</span> <span class="nav-text">5、代码块</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-6"><a class="nav-link" href="#一、git基本命令"><span class="nav-number">1.</span> <span class="nav-text">一、git基本命令</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#二、git分支管理"><span class="nav-number">2.</span> <span class="nav-text">二、git分支管理</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#三、查看日志版本"><span class="nav-number">3.</span> <span class="nav-text">三、查看日志版本</span></a></li></ol></div>
             
 
           </div>
