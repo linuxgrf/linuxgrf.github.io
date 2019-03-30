@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hexo之修改内容区域的宽度]]></title>
+    <url>%2F2019%2F03%2F30%2FHexo%E4%B9%8B%E4%BF%AE%E6%94%B9%E5%86%85%E5%AE%B9%E5%8C%BA%E5%9F%9F%E7%9A%84%E5%AE%BD%E5%BA%A6%2F</url>
+    <content type="text"><![CDATA[修改内容区域的宽度编辑主题的 source/css/_variables/custom.styl 文件，新增变量： 12345// 修改成你期望的宽度$content-desktop = 700px// 当视窗超过 1600px 后的宽度$content-desktop-large = 900px]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[技能树]]></title>
+    <url>%2F2019%2F03%2F30%2F%E6%8A%80%E8%83%BD%E6%A0%91%2F</url>
+    <content type="text"><![CDATA[一、如何做事1.方法论 完成一件事有好几条途径，优秀的人的途径最短 任务拆分很容易得出做事的方法论 任务拆分 过长过程会经历：能力越大、责任越大、事情越多 思路 拆分细化多个点 排好优先级 任务四象限，决定优先级 SMART原则 自己欠缺什么，立马发现 学会团队作战 2.沟通、反馈与责任 一个无沟通能力的人，要么是天才，要么是不可爱的人，不过天才也就寥寥无几而已。 反馈要及时 避免出问题不反馈，影响进度 方式 正式的：邮件 临时的：微信等即时通信 着急的：电话 工作有大小，责任心无大小 认识周报的意义 意义：大家互相了解工作与心得，有利于自己的判断与成长 周报需体现本周工作总结、下周工作计划、心得/问题/建议 可以体现一个人的总结能力、计划能力、分享能力 二、成长1.完成的定义 比如写个PoC(概念验证) 1、搞懂目标Web应用漏洞的原理 2、熟练运用Python各相关模块与机制 3、熟练了解HTTP协议 HTTP请求 HTTP响应 4、代码书写规范，让人看起来舒服 5、程序经过足够的测试 黑盒测试 白盒测试 6、及时反馈进度 7、更新相关文档。 2.熟练的定义 比如熟练SQL注入 SQL语句可以脱离文档顺手写出 主流数据库的SQL特有函数、存储过程、机制都特别了解 实战过N回，可以解决各种奇葩环境问题 具备创造性，写出自己的脚本工具 3.好书推荐 鸡汤类 黑客与画家 浪潮之巅 传递代码之美 重构 代码整洁之道 代码大全 产品类 人人都是产品经理 结网 提升思维 自私的基因 失控 三、专业技能1.提升技能你要知道 至少完整看完和练习好一本看过的专业书籍 至少过一遍学习的官方文档 2.基础必备 HTTP抓包与调试 Office能力 Linux 熟悉虚拟化 Python基础 正则表达式 翻墙-了解国外 3.不同发展方向的进阶之路 Python自动化运维 数据分析师 测试工程师 DBA 项目经理 4.研发必备 Django http://djangobook.py3k.cn/2.0/ Django Debug Toolbar 编码环境 pip vim Docker Markdown 等 版本控制 GIt GitLab 爬虫进阶 代理池 网络请求 四、我的工具1.linux进阶书 《鸟哥的Linux私房菜》 《Linux shell脚本攻略》 《UNix编程艺术》 2.Python进阶 官方手册 至少要过一遍，不然视野会局限 熟悉scrapy、redis、mongodb、myql 熟悉docker和Django]]></content>
+      <categories>
+        <category>个人成长</category>
+      </categories>
+      <tags>
+        <tag>技能</tag>
+        <tag>成长</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[git常用命令]]></title>
+    <url>%2F2019%2F03%2F29%2Fgit%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[一、git基本命令1.git创建分支并提交到远程分支 1234git checkout -b hexo #创建hexo分支并进入该分支git branch #查看以有分支git push origin hexo #提交该分支到远程仓库git branch --set-upstream-to=origin/hexo #建立本地到远端仓的链接 2.将一个远程库拷贝到本地 1git clone https://github.com/linuxgrf/linuxgrf.github.io.git 3.检查当前跟踪文件的状态 1git status 4.提交更新 12git addgit commit -m &quot;说明字符串&quot; #提交保存到仓库 二、git分支管理1.创建分支命令 1git branch (branchname) 2.切换分支命令 1git checkout (branchname) 3.合并分支 1git merge (branchname) 4.创建新分支并切换到该分支下 1git checkout -b (branchname) 5.删除分支命令 1git branch -d (branchname) 三、查看日志版本1.列出历史提交记录 1286155@DESKTOP-O99ELN7 MINGW64 /g/Hexo/linuxgrf.github.io (hexo)$ git log 2.查看历史记录的简洁版本 1git log --oneline 3.查看历史中什么时候出现分支、合并 1git log --oneline --graph]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[PMP项目管理]]></title>
+    <url>%2F2019%2F03%2F29%2FPMP%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[天天向上的力量]]></title>
+    <url>%2F2019%2F03%2F29%2F%E5%A4%A9%E5%A4%A9%E5%90%91%E4%B8%8A%E7%9A%84%E5%8A%9B%E9%87%8F%2F</url>
+    <content type="text"><![CDATA[一、python基础1.数字运算函数一些以函数形式提供的数值运算功能 abs(x) 绝对值，x的绝对值divmod(x,y) 商于，(x//y,x%y)，同时输出商和余数pow(x,y[,z]) 幂于，(x**y)%z,[..]表示参数z可以省略round(x[,d]) 四舍五入，d是保留小数位数，默认为max(x1,x2,…) 判断最大值]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo]]></title>
+    <url>%2F2019%2F03%2F29%2Fhexo%2F</url>
+    <content type="text"><![CDATA[一、建站前提1.了解Hexo Hexo是高效的静态站点生成框架，她基于Node.js。 通过 Hexo 你可以轻松地使用 Markdown 编写文章，除了 Markdown 本身的语法之外，还可以使用 Hexo 提供的标签插件来快速的插入特定形式的内容，而且相对于其他框架，Hexo在速度上也有很大优势。 2.搭建Node.js环境 下载地址：http://nodejs.cn/download测试安装：命令行使用node -v 、mpm -v，查看显示版本号即成功。 3.安装Hexo博客框架工具 npm install hexo-cli -g 4.安装Git版本工具 下载地址：https://git-scm.com/downloads 5.注册Github账号 我们需要通过Github得到自己的博客网站域名，而且需要使用gitHub同步我们个人博客的相关文件。注册地址：https://github.com 二、搭建博客1.hexo官方文档 https://hexo.io/zh-cn/docs/setup.html 2.个性化配置 我个人认为比较好的 http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html]]></content>
+      <categories>
+        <category>Hexo教程</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo下Markdown的使用]]></title>
+    <url>%2F2019%2F03%2F29%2FMarkdown%E7%9A%84%E4%BD%BF%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[一、创建文章 在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题 $ hexo new “title” 当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md 这个文件就是将要发布到网站上的原始文件，用于记录文章内容。 二、编写文章 1、Markdown 简介Markdown 是一种可以使用普通文本编辑器编写的 标记语言，通过简单的 标记语法，它可以使普通文本内容具有一定的格式 2、Markdown语法Typora 快捷键： Ctrl+1：一级标题 Ctrl+2：二级标题 Ctrl+3：三级标题 Ctrl+4：四级标题 Ctrl+5：五级标题 Ctrl+6 ：六级标题 Ctrl+0：段落 3、粗体、斜体、删除线和下划线Markdown 语法： 12345*斜体***粗体*****加粗斜体***~~删除线~~1234 Typora 快捷键： Ctrl+I：斜体 Ctrl+B：粗体 Ctrl+U：下划线 Alt+Shift+5：删除线 4、引用块 1.&gt;文字引用 5、代码块Markdown 语法： 123&gt; `行内代码`&gt; &gt; ​ 多行代码多行代码​1&gt; Typora 快捷键： 行内代码：Ctrl+Shift+` 多行代码：Ctrl+Shift+K]]></content>
+      <categories>
+        <category>Hexo教程</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World纪念建立的第一个博客]]></title>
+    <url>%2F2019%2F03%2F28%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
