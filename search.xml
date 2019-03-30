@@ -39,7 +39,7 @@
   <entry>
     <title><![CDATA[天天向上的力量]]></title>
     <url>%2F2019%2F03%2F29%2F%E5%A4%A9%E5%A4%A9%E5%90%91%E4%B8%8A%E7%9A%84%E5%8A%9B%E9%87%8F%2F</url>
-    <content type="text"><![CDATA[一、python基础1.数字运算函数一些以函数形式提供的数值运算功能 abs(x) 绝对值，x的绝对值divmod(x,y) 商于，(x//y,x%y)，同时输出商和余数pow(x,y[,z]) 幂于，(x**y)%z,[..]表示参数z可以省略round(x[,d]) 四舍五入，d是保留小数位数，默认为max(x1,x2,…) 判断最大值]]></content>
+    <content type="text"><![CDATA[1234GRIT（坚持）是获得成功最重要的因素之一，牢记天天向上的力量dayup = pow(1.1,365)daydown = pow(0.9,365)print("向上：&#123;:.2f&#125;,向下：&#123;:.2f&#125;".format(dayup,daydown)) 1输出：向上：1283305580313390.50,向下：0.00 一、python基础1.数字运算函数一些以函数形式提供的数值运算功能 abs(x) 绝对值，x的绝对值divmod(x,y) 商于，(x//y,x%y)，同时输出商和余数pow(x,y[,z]) 幂于，(x**y)%z,[..]表示参数z可以省略round(x[,d]) 四舍五入，d是保留小数位数，默认为max(x1,x2,…) 判断最大值 2.天天向上代码1234567891011121314151617181920工作日模式要努力到什么水平，才能与每天努力1%一样？‪‬‪‬‪‬‪‬‪‬‮‬‫‬‮‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‭‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‫‬‪‬‪‬‪‬‪‬‪‬‮‬‭-A君: 一年365天，每天进步1%，不停歇 ‪‬‪‬‪‬‪‬‪‬‮‬‫‬‮‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‭‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‫‬‪‬‪‬‪‬‪‬‪‬‮‬‭-B君: 一年365天，每周工作5天休息2天，休息日下降1% ，要多努力呢？‪‬‪‬‪‬‪‬‪‬‮‬‫‬‮‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‭‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‫‬‪‬‪‬‪‬‪‬‪‬‮‬‭每周工作5天休息2天，计算工作日的努力参数是多少才能与每天努力1%一样。‪‬‪‬‪‬‪‬‪‬‮‬‫‬‮‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‭‬‪‬‪‬‪‬‪‬‪‬‪‬‮‬‪‬‫‬‪‬‪‬‪‬‪‬‪‬‮‬‭def dayUP(df): dayup = 1 for i in range(365): if i % 7 in [6,0]: dayup = dayup*(1 - 0.01) else: dayup = dayup*(1 + df) return dayupdayfactor = 0.01while dayUP(dayfactor) &lt; 37.78: dayfactor += 0.001print("工作日的努力参数是: &#123;:.3f&#125;".format(dayfactor))]]></content>
       <categories>
         <category>Python</category>
       </categories>
@@ -48,11 +48,11 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[hexo]]></title>
+    <title><![CDATA[hexo搭建到个性化设计]]></title>
     <url>%2F2019%2F03%2F29%2Fhexo%2F</url>
     <content type="text"><![CDATA[一、建站前提1.了解Hexo Hexo是高效的静态站点生成框架，她基于Node.js。 通过 Hexo 你可以轻松地使用 Markdown 编写文章，除了 Markdown 本身的语法之外，还可以使用 Hexo 提供的标签插件来快速的插入特定形式的内容，而且相对于其他框架，Hexo在速度上也有很大优势。 2.搭建Node.js环境 下载地址：http://nodejs.cn/download测试安装：命令行使用node -v 、mpm -v，查看显示版本号即成功。 3.安装Hexo博客框架工具 npm install hexo-cli -g 4.安装Git版本工具 下载地址：https://git-scm.com/downloads 5.注册Github账号 我们需要通过Github得到自己的博客网站域名，而且需要使用gitHub同步我们个人博客的相关文件。注册地址：https://github.com 二、搭建博客1.hexo官方文档 https://hexo.io/zh-cn/docs/setup.html 2.个性化配置 我个人认为比较好的 http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html]]></content>
       <categories>
-        <category>Hexo教程</category>
+        <category>Hexo</category>
       </categories>
       <tags>
         <tag>技术</tag>
@@ -61,7 +61,7 @@
   <entry>
     <title><![CDATA[hexo下Markdown的使用]]></title>
     <url>%2F2019%2F03%2F29%2FMarkdown%E7%9A%84%E4%BD%BF%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[一、创建文章 在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题 $ hexo new “title” 当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md 这个文件就是将要发布到网站上的原始文件，用于记录文章内容。 二、编写文章 1、Markdown 简介Markdown 是一种可以使用普通文本编辑器编写的 标记语言，通过简单的 标记语法，它可以使普通文本内容具有一定的格式 2、Markdown语法Typora 快捷键： Ctrl+1：一级标题 Ctrl+2：二级标题 Ctrl+3：三级标题 Ctrl+4：四级标题 Ctrl+5：五级标题 Ctrl+6 ：六级标题 Ctrl+0：段落 3、粗体、斜体、删除线和下划线Markdown 语法： 12345*斜体***粗体*****加粗斜体***~~删除线~~1234 Typora 快捷键： Ctrl+I：斜体 Ctrl+B：粗体 Ctrl+U：下划线 Alt+Shift+5：删除线 4、引用块 1.&gt;文字引用 5、代码块Markdown 语法： 123&gt; `行内代码`&gt; &gt; ​ 多行代码多行代码​1&gt; Typora 快捷键： 行内代码：Ctrl+Shift+` 多行代码：Ctrl+Shift+K]]></content>
+    <content type="text"><![CDATA[一、创建文章 在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题 $ hexo new “title” 当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md 这个文件就是将要发布到网站上的原始文件，用于记录文章内容。 二、编写文章 1、Markdown 简介Markdown 是一种可以使用普通文本编辑器编写的 标记语言，通过简单的 标记语法，它可以使普通文本内容具有一定的格式 2、Markdown语法2.1、Typora 快捷键：Ctrl+1：一级标题 Ctrl+2：二级标题 Ctrl+3：三级标题 Ctrl+4：四级标题 Ctrl+5：五级标题 Ctrl+6 ：六级标题 Ctrl+0：段落 2.2、Markdown 语法： 12345*斜体***粗体*****加粗斜体***~~删除线~~1234 Typora 快捷键： Ctrl+I：斜体 Ctrl+B：粗体 Ctrl+U：下划线 Alt+Shift+5：删除线 3、引用块3.1、文字引用 Markdown 语法： 在Typora中输入””” + 回车，并在后面选择一个语言名称即可语法高亮。 语法高亮:\ 1234&gt; &gt; &gt; def helloWorld():&gt; &gt; &gt; print &apos;hello, world&apos;&gt; &gt; &gt; &gt; &gt; 3.2、表 输入| 表头1 | 表头2 |并回车。即可将创建一个包含两列的表，然后就像操作Word文档一样设置表格即可，没必要知道Markdown的复杂语法，因为这些语法会由Typora自动生成。效果如下： First Header Second Header 3.3、分割线 输入***或--- 再按回车即可绘制一条水平线，如下： 3.4、链接内部链接 这是一个带有标题属性的链接.这是一个没有标题属性的链接&gt;. 效果如下： 这是一个带有标题属性的链接.这是一个没有标题属性的链接 Typora 快捷键：** 行内代码：Ctrl+Shift+` 多行代码：Ctrl+Shift+K 3.5代码标记 标记代码使用反引号，即在英文输入法下，ESC键下面和1键左边的符号——` 使用该printf()功能。效果如下：使用该printf()功能。 3.6、删除线(中间没有空格) ~ ~删除线~ ~ 效果如下： 删除线 3.7、下划线 \下划线 效果如下： 下划线]]></content>
       <categories>
         <category>Hexo教程</category>
       </categories>
