@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[EXCEl技巧]]></title>
-    <url>%2F2019%2F04%2F03%2FEXCEl%E6%8A%80%E5%B7%A7%2F</url>
-    <content type="text"><![CDATA[损坏的EXCEL文件如何修复1.新建一个Excel文件，并点击打开，在Excel中，点击左上角【文件】]]></content>
-      <categories>
-        <category>office</category>
-      </categories>
-      <tags>
-        <tag>EXCEL</tag>
-      </tags>
+    <title><![CDATA[excel技巧]]></title>
+    <url>%2F2019%2F04%2F04%2Fexcel%E6%8A%80%E5%B7%A7-0%2F</url>
+    <content type="text"><![CDATA[损坏的excel文件如何修复 1.新建一个excel文件，并点击打开，在excel中，点击左上角【文件】2.这时在左侧会弹出excel选项页面，我们找到【选项】按钮并点击打开3.此时会弹出EXCEL选项页面，在此页面里先点击信任中心，然后在右侧弹出的页面再点击【信任中心设置】4.在弹出的信任中心页面里点击【受保护的视图】此时右边会弹出受保护视图的类型，我们将其中的选项全部取消勾选。5.完成以上步骤后，我们再在信任中心页面里，点击受信任位置，在右侧弹出的页面里点击【添加新位置】把你所要修复文件的位置添加进去即可6.以上步骤完成后我们再点击我们需要打开的EXCEL文件就可以了]]></content>
   </entry>
   <entry>
     <title><![CDATA[Python程序题（持续更新中）]]></title>
