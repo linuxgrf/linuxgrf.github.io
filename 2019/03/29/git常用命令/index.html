@@ -123,7 +123,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="git常用命令">
 <meta property="og:url" content="http://yoursite.com/2019/03/29/git常用命令/index.html">
-<meta property="og:site_name" content="枫叶小屋">
+<meta property="og:site_name" content="郭瑞峰的小屋">
 <meta property="og:description" content="一、git基本命令1.git创建分支并提交到远程分支 1234git checkout -b hexo    #创建hexo分支并进入该分支git branch				#查看以有分支git push origin hexo	#提交该分支到远程仓库git branch --set-upstream-to=origin/hexo	#建立本地到远端仓的链接">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2019-03-29T15:28:05.674Z">
@@ -133,7 +133,7 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="枫叶小屋" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="郭瑞峰的小屋" type="application/atom+xml">
 
 
 
@@ -148,7 +148,7 @@
   };
 </script>
 
-  <title>git常用命令 | 枫叶小屋</title>
+  <title>git常用命令 | 郭瑞峰的小屋</title>
   
 
 
@@ -207,14 +207,10 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">枫叶小屋</span>
+        <span class="site-title">郭瑞峰的小屋</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
-    
-      
-        <p class="site-subtitle">naka.club</p>
-      
     
     
   </div>
@@ -416,13 +412,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/29/git常用命令/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="grf">
+      <meta itemprop="name" content="郭瑞峰">
       <meta itemprop="description" content="记录生活，记录成长历程">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="枫叶小屋">
+      <meta itemprop="name" content="郭瑞峰的小屋">
     </span>
 
     
@@ -522,30 +518,30 @@
 
       
         <h6 id="一、git基本命令"><a href="#一、git基本命令" class="headerlink" title="一、git基本命令"></a>一、git基本命令</h6><p>1.git创建分支并提交到远程分支</p>
-<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git checkout -<span class="keyword">b </span>hexo    <span class="comment">#创建hexo分支并进入该分支</span></span><br><span class="line">git <span class="keyword">branch	</span>			<span class="comment">#查看以有分支</span></span><br><span class="line">git push <span class="keyword">origin </span>hexo	<span class="comment">#提交该分支到远程仓库</span></span><br><span class="line">git <span class="keyword">branch </span>--set-upstream-to=<span class="keyword">origin/hexo	</span><span class="comment">#建立本地到远端仓的链接</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b hexo    #创建hexo分支并进入该分支</span><br><span class="line">git branch				#查看以有分支</span><br><span class="line">git push origin hexo	#提交该分支到远程仓库</span><br><span class="line">git branch --set-upstream-to=origin/hexo	#建立本地到远端仓的链接</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
 <p>2.将一个远程库拷贝到本地</p>
-<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">clone</span> <span class="title">https</span>://github.com/linuxgrf/linuxgrf.github.io.git</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/linuxgrf/linuxgrf.github.io.git</span><br></pre></td></tr></table></figure>
 <p>3.检查当前跟踪文件的状态</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git status</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br></pre></td></tr></table></figure>
 <p>4.提交更新</p>
-<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">add</span><span class="bash"></span></span><br><span class="line"><span class="bash">git commit -m <span class="string">"说明字符串"</span>	<span class="comment">#提交保存到仓库</span></span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add</span><br><span class="line">git commit -m &quot;说明字符串&quot;	#提交保存到仓库</span><br></pre></td></tr></table></figure>
 <h6 id="二、git分支管理"><a href="#二、git分支管理" class="headerlink" title="二、git分支管理"></a>二、git分支管理</h6><p>1.创建分支命令</p>
-<figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch (<span class="name">branchname</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch (branchname)</span><br></pre></td></tr></table></figure>
 <p>2.切换分支命令</p>
-<figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout (<span class="name">branchname</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout (branchname)</span><br></pre></td></tr></table></figure>
 <p>3.合并分支</p>
-<figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge (<span class="name">branchname</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git merge (branchname)</span><br></pre></td></tr></table></figure>
 <p>4.创建新分支并切换到该分支下</p>
-<figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b (<span class="name">branchname</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b (branchname)</span><br></pre></td></tr></table></figure>
 <p>5.删除分支命令</p>
-<figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -d (<span class="name">branchname</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -d (branchname)</span><br></pre></td></tr></table></figure>
 <h6 id="三、查看日志版本"><a href="#三、查看日志版本" class="headerlink" title="三、查看日志版本"></a>三、查看日志版本</h6><p>1.列出历史提交记录</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">86155</span>@DESKTOP-O99ELN7 MINGW64 /g/Hexo/linuxgrf<span class="selector-class">.github</span><span class="selector-class">.io</span> (hexo)</span><br><span class="line">$ git log</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">86155@DESKTOP-O99ELN7 MINGW64 /g/Hexo/linuxgrf.github.io (hexo)</span><br><span class="line">$ git log</span><br></pre></td></tr></table></figure>
 <p>2.查看历史记录的简洁版本</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">log</span> <span class="comment">--oneline</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git log --oneline</span><br></pre></td></tr></table></figure>
 <p>3.查看历史中什么时候出现分支、合并</p>
-<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">log</span> <span class="comment">--oneline --graph</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git log --oneline --graph</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -661,9 +657,9 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="grf">
+              <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="郭瑞峰">
             
-              <p class="site-author-name" itemprop="name">grf</p>
+              <p class="site-author-name" itemprop="name">郭瑞峰</p>
               <div class="site-description motion-element" itemprop="description">记录生活，记录成长历程</div>
           </div>
 
@@ -674,7 +670,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">10</span>
+                    <span class="site-state-item-count">11</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -701,7 +697,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">5</span>
+                      
+                    
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -732,7 +730,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">7</span>
+                      
+                    
+                    <span class="site-state-item-count">8</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -858,7 +858,7 @@
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">grf</span>
+  <span class="author" itemprop="copyrightHolder">郭瑞峰</span>
 
   
 
@@ -896,7 +896,7 @@
     <!-- 博客字数统计 -->
     <span class="site-pv">
       <i class="fa fa-pencil"></i>
-      博客全站共： <span class="post-count">2.9k</span> 字
+      博客全站共： <span class="post-count">3k</span> 字
     </span>
 </div>
 <!-- 新增访客统计代码 END-->
